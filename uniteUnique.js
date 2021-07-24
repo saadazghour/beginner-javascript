@@ -1,20 +1,18 @@
 function uniteUnique(collection) {
  const finalArray = [];
-
  //  console.log(arguments);
 
  const values = Object.values(arguments);
 
- for (let i = 0; i < values.length; i++) {
-  // console.log(values[i]);
-  for (let j = 0; j < values[i].length; j++) {
-   // console.log(values[j]);
-   // console.log(values[i][j]);
-   if (finalArray.indexOf(values[i][j]) === -1) {
-    finalArray.push(values[i][j]);
+ //  console.log(values);
+
+ values.forEach(groups => {
+  groups.forEach(individualValues => {
+   if (finalArray.indexOf(individualValues) === -1) {
+    finalArray.push(individualValues);
    }
-  }
- }
+  });
+ });
 
  return finalArray;
 }
