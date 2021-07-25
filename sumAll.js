@@ -7,7 +7,8 @@ function sumAll(arr) {
  for (let i = min; i <= max; i++) {
   sumBtw += i;
  }
+
  return sumBtw;
 }
 
-sumAll([1, 4]);
+console.log(sumAll([1, 4]));
