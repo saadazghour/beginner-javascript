@@ -19,7 +19,6 @@ function sumFibs(num) {
   }
  });
 
- //  console.log(sumAllOdd);
  return sumAllOdd;
 }
 
