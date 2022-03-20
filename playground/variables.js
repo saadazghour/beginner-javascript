@@ -3,6 +3,15 @@ let name = "Azghour";
 const strict = "Strict Mode !!";
 let country = true;
 
+//SNOBUNS
+// String
+// Number
+// Object
+// Boolean
+// undefined
+// null
+// Symbol
+
 name = "Fake";
 country = false;
 
