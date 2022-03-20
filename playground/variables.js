@@ -1,14 +1,13 @@
-"use strict";
-
-// Can be updated
-var name = "Azghour";
-var strict = "Strict Mode !!";
+//  Can be updated
+let name = "Azghour";
+const strict = "Strict Mode !!";
 let country = true;
 
 name = "Fake";
 country = false;
 
 // you can't be updated
+
 const age = 28;
 
 if (age > 10) {
@@ -20,4 +19,4 @@ const iLovePizze = true;
 // UpperCamelCase
 const ILoveToEatHotDogs = false;
 // snake case !!
-const this_is_snake_case = false;
+// const this_is_snake_case = false;
