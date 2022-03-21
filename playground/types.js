@@ -25,3 +25,17 @@ const exactGet = Math.floor(eachKidsGet);
 const dadGets = smarties % kids;
 
 // console.log(`Dad Gets ${dadGets}`);
+
+const Person = {
+  first: "SAAD",
+  last: "AZGHOUR",
+  age: 100,
+};
+
+const first = Person.first;
+const last = Person.last;
+const age = Person.age;
+
+// console.log(
+//   `My first name is ${first}, && last name is ${last}, && age is ${age}`
+// );
