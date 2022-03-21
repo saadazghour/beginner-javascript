@@ -34,7 +34,7 @@ const Person = {
 
 const first = Person.first;
 const last = Person.last;
-const age = Person.age;
+// const age = Person.age;
 
 // console.log(
 //   `My first name is ${first}, && last name is ${last}, && age is ${age}`
@@ -56,3 +56,9 @@ const teller = {
 
 teller.first = "Teller";
 teller.last = "null";
+
+const isDrawing = false;
+const age = 20;
+
+const ofAge = 20 > 22;
+// console.log(`The Resule is : ${ofAge}`);
