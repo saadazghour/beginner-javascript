@@ -39,3 +39,20 @@ const age = Person.age;
 // console.log(
 //   `My first name is ${first}, && last name is ${last}, && age is ${age}`
 // );
+
+let somethingUndefined;
+const somethingNull = null;
+
+const cher = {
+  first: "cher",
+};
+
+// console.log(`I Get undefined! ${cher.last}`);
+
+const teller = {
+  first: "Raymond",
+  last: "Teller",
+};
+
+teller.first = "Teller";
+teller.last = "null";
